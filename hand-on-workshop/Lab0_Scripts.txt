@@ -1,0 +1,23 @@
+
+
+实验一
+从下一行复制开始-->
+#!/bin/bash
+/usr/bin/yum -y install httpd 
+/sbin/chkconfig httpd on 
+/sbin/service httpd start
+<--复制到上一行结束
+
+实验三
+从下一行复制开始-->
+#!/bin/bash
+yum install httpd -y
+yum update -y
+service httpd start
+chkconfig httpd on
+echo "<html><h1>You are AWSome!!</h1></html>" > /var/www/html/index.html
+<--复制到上一行结束
+
+实验五
+CloudFormation 模板地址：
+https://s3.cn-north-1.amazonaws.com.cn/awsomeday/GreenField_Lab5_CloudFormation_NoDB
